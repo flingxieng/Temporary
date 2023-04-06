@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DataGateway.Abstractions\DataGateway.Abstractions.csproj" />
+      <ProjectReference Include="..\Ots\Ots.Client\Ots.Client.csproj" />
+    </ItemGroup>
+
+</Project>
